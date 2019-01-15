@@ -58,8 +58,7 @@ export class AppComponent {
       status: 'offline',
       started: new Date(15, 1, 2017)
     });
-    const show = console.table(this.servers);
-    const mustGoOn = console.log('%c Sharis Rulez', 'color: blue; font-weight: bold;');
-    console.log(show, mustGoOn);
+    console.table(this.servers);
+    console.log('%c Sharis Rulez', 'color: blue; font-weight: bold;');
   }
 }
